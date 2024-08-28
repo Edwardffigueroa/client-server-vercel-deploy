@@ -2,5 +2,8 @@
     "rewrites": [
       { "source": "/", "destination": "/client-player/index.html" },
       { "source": "/api/(.*)", "destination": "/server/index.js" }
-    ]
+    ],
+    "static": {
+        "public": "client-player"
+    }
 }
