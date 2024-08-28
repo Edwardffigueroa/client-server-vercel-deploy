@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node api/index.js",
     "start-server": "nodemon server/index.js",
     "start-player": "live-server ./client-player --port=3000",
     "start-result": "live-server ./client-results-screen --port=3005"
