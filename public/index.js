@@ -7,7 +7,7 @@ async function createUser() {
       name: "Jonh Doe",
       profilePicture: "https://avatar.iran.liara.run/public/13", // if you want to generate random images for user profile go to this link: https://avatar-placeholder.iran.liara.run/
     };
-    const response = await fetch("http://localhost:5050/user", {
+    const response = await fetch("https://client-server-vercel-deploy.vercel.app/users", {
       method: "POST",
       headers: {
         "Content-Type": "application/json", // Specify the content type as JSON
