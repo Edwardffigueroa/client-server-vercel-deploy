@@ -1,6 +1,5 @@
 {
     "rewrites": [
-      { "source": "/", "destination": "/client-player" },
       { "source": "/api/(.*)", "destination": "/server/index.js" }
     ]
 }
