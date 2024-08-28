@@ -3,7 +3,9 @@ document.getElementById("fetch-button").addEventListener("click", fetchData);
 async function fetchData() {
   renderLoadingState();
   try {
-    const response = await fetch("http://localhost:5050/users");
+    const response = await fetch(
+      "https://client-server-vercel-deploy.vercel.app/users"
+    );
     if (!response.ok) {
       throw new Error("Network response was not ok");
     }
