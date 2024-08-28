@@ -1,4 +1,4 @@
-document.getElementById("fetch-button").addEventListener("click", fetchData);
+document.getElementById("fetch-button-results").addEventListener("click", fetchData);
 
 async function fetchData() {
   renderLoadingState();
